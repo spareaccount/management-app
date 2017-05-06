@@ -1,0 +1,79 @@
+.xepan-tool-options(id='{$_name}' style="display:none" for-xepan-component='xepan/base/Tool_UserPanel')
+	.xepan-cms-groups-panel.collapse.in(id="xepan-cms-groups-panel")
+	.xepan-cms-group-panel.clearfix
+		h3.collapsed(data-toggle="collapse" data-target="#collapse-user-panel" aria-expanded="false")
+			span User Panel Options
+		#collapse-user-panel.xepan-cms-tools-bar-panel.row-fluid.collapse
+			.panel-body
+				.xepan-cms-groups-panel.collapse.in(id="xepan-cms-groups-panel")
+				.xepan-cms-group-panel.clearfix
+					div.panel.panel-heading.panel-primary.collapsed(data-toggle="collapse" data-target="#user-tool-form-layouts" aria-expanded="false")
+						span Layouts
+				#user-tool-form-layouts.xepan-cms-tools-bar-panel.row-fluid.collapse
+					table.table.table-condensed.table-hover
+						tr
+							.xepan-tool-option
+								td.xepan-tool-option-title Layout
+								td.xepan-tool-option-value 
+									select#user-panel-layout(data-attr='layout')
+										option(value="login_view")|Login
+										option(value="forget_password")|Forgot Password
+										option(value="new_registration")|New Registration
+										option(value="verify_account")|Aerify Account
+										option(value="verify_again")|Verify Again
+				.xepan-cms-groups-panel.collapse.in(id="xepan-cms-groups-panel")
+				.xepan-cms-group-panel.clearfix
+					div.panel.panel-heading.panel-primary.collapsed(data-toggle="collapse" data-target="#user-tool-page-links" aria-expanded="false")
+						span Page Links
+				#user-tool-page-links.xepan-cms-tools-bar-panel.row-fluid.collapse
+					table.table.table-condensed.table-hover
+						tr
+							.xepan-tool-option
+								td.xepan-tool-option-title Success URL
+								td.xepan-tool-option-value 
+									input#user-panle-sucess-url(data-attr='login_success_url' data-shortname="success_url")
+						tr
+							.xepan-tool-option
+								td.xepan-tool-option-title Show TnC
+								td.xepan-tool-option-value
+									select#show_tnc(data-attr='show_tnc' data-defaultvalue="true")
+										option(value="true") Yes
+										option(value="false") No
+						tr
+							.xepan-tool-option
+								td.xepan-tool-option-title TnC URL
+								td.xepan-tool-option-value 
+									input#tnc_page_url(data-attr='tnc_page_url' data-shortname="tnc_url")									
+						tr
+							.xepan-tool-option
+								td.xepan-tool-option-title Logout Page
+								td.xepan-tool-option-value 
+									input#user-panle-logoutpage-layout(data-attr='logout_page_form_layout' data-shortname="logout_page")
+						tr
+							.xepan-tool-option
+								td.xepan-tool-option-title Login Page
+								td.xepan-tool-option-value 
+									input#user-panle-loginpage-layout(data-attr='login_page_form_layout' data-shortname="login_page")
+				.xepan-cms-groups-panel.collapse.in(id="xepan-cms-groups-panel")
+				.xepan-cms-group-panel.clearfix
+					div.panel.panel-heading.panel-primary.collapsed(data-toggle="collapse" data-target="#user-tool-micro-login" aria-expanded="false")
+						span Micro Login
+				#user-tool-micro-login.xepan-cms-tools-bar-panel.row-fluid.collapse
+					table.table.table-condensed.table-hover
+						tr
+							.xepan-tool-option
+								td.xepan-tool-option-title Micro Login
+								td.xepan-tool-option-value 
+									select#user-panel-micrologin(data-attr='show_micro_login' data-shortname="micro_login")
+										option(value="true") True
+										option(value="false") False																							
+	script.
+		$('\#{$_name} [data-attr]').on('change',function(){
+			$(current_selected_component).attr($(this).data('attr'),$(this).val());
+		});
+
+		$('\#{$_name}').on('show',function(event){
+			$('\#{$_name} [data-attr]').each(function(index,value){
+				$(this).val($(current_selected_component).attr($(this).data('attr')));				
+			});
+		})

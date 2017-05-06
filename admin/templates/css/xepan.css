@@ -1,0 +1,1135 @@
+input ,select{background-color:rgba(254,254,254,0);border-top:none; border-left:none; border-right:none; font-weight:normal; border-bottom-color: grey; border-bottom-width: 1px;width: 100%}
+input[type=checkbox]{
+	width: auto!important;
+}
+
+.filter-block select{
+  width:auto!important;
+}
+
+input:focus{background-color:rgba(254,254,254,0);border-top:none; border-left:none; border-right:none; border-bottom-color: grey; border-bottom-width: 1px; outline: none !important}
+textarea {width: 100%;}
+
+
+/*remove border from all input*/
+.form-control{
+	border:none ;
+}
+.form-control button{
+  float:right;
+}
+
+.filter-block .form-group .search-icon{
+	right:0px;
+	float: right;
+}
+
+.filter-block .form-group .xepan-jackscrew{
+	float: right;
+}
+
+.xepan-filter-form .xepan-input-combo div.xepan-cell:first-child {
+	float: left !important;
+}
+/*Top Navbar */
+.navbar-collapse{
+  padding-left:0px!important;
+  padding-right:0px!important;
+}
+
+.xepan-filter-form span.icon-cancel{
+	padding:5px;
+	display:inline-block;
+	font:normal normal normal 14px/1 FontAwesome;
+	font-size:inherit;
+	text-rendering:auto;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	transform:translate(0, 0);	
+	background-color: #e84e40;
+	color: white;
+	border-radius:5px;
+}
+.xepan-filter-form span.icon-cancel:before{content:"\f00d";}
+
+.xepan-filter-form .form-control > i.search-icon{
+	/*background-color: yellow;*/
+}
+.xepan-push-small{
+	margin-bottom: 0.7rem !important;
+}
+.xepan-push{
+	margin-bottom: 1.4rem !important;
+}
+.xepan-push-large{
+	margin-bottom: 2.8rem !important;
+}
+
+/*xEpan HasMany Grid Button display on hover*/
+.xepan-hover-button{
+	display: none;
+	position: absolute;
+	right:0px;
+	top: 0px;
+}
+.xepan-hasmany-row:hover .xepan-hover-button{
+	display: block;
+}
+
+.xepan-hasmany-row{
+	position: relative;
+}
+
+.xepan-hasmany-row td{
+	padding:5px !important;
+	font-size: 1em;
+}
+
+.xepan-micro-grid{
+	font-size:0.7em;
+}
+
+.xepan-micro-grid header,.xepan-micro-grid .form-group{
+	padding:0px 0px 0px 0px !important;
+	margin: 0px 0px 0px 0px !important;
+}
+.xepan-micro-grid .xepan-actions{
+	margin-right: 10px;
+}
+.xepan-micro-grid .main-box-body{
+	padding: 0px;
+}
+
+.xepan-hasmany-row > td a{
+	padding:0px 0px 0px 0px !important;
+	margin: 0px 0px 0px 0px !important;
+	font-size: 0.9em !important;
+
+}
+.xepan-hasmany-row .fa-pencil{
+	color:#689f38;
+}
+.xepan-hasmany-row .fa-trash-o{
+	color: #e84e40;
+}
+
+.xepan-hasmany-row .fa-pencil,.xepan-hasmany-row .fa-trash-o{
+	background-color: #f3f3f3;
+}
+
+.xepan-hasmany-row .fa-pencil:hover, .xepan-hasmany-row .fa-trash-o:hover{
+	background-color: gray;
+	color: white;
+}
+.xepan-hasmany-row .fa-stack i.fa-stack-2x{
+	display: none !important;
+}
+
+.xepan-micro-grid{
+	font-size:0.8em;
+}
+
+.main-box-body > h2{
+
+}
+
+/*Removing margin and top border of profile detail*/
+.xepan-contact-profile .profile-details{
+	border-top:0px !important;
+	margin-top:0px !important;
+}
+
+
+
+/*General CSS Class*/
+.margin-reset{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-right: 0px;
+}
+
+.padding-reset{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-right: 0px;
+}
+
+.input-full-width input{
+	width:100%;
+}
+.xepan-cell .xepan-jackscrew input{
+	width: 100%;
+}
+.xepan-filter-form input{
+	width: auto;
+}
+.editable-checklist input{
+	width: auto;
+}
+/*.atk-cells{
+	display: table;
+	width: 100%;
+}*/
+.field-error-text{
+	color:red!important;
+}
+
+/*.atk-cell{
+	display: table-cell;
+	vertical-align: middle;
+}*/
+
+.atk-align-right{
+	text-align:right;
+}
+.xepan-clear-fix:after {
+  clear: both;
+}
+.xepan-move-left {
+  float: left;
+}
+/*.xepan-move-center {
+  float: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.xepan-move-center.atk-button {
+  display: block;
+}*/
+.xepan-move-right {
+  float: right;
+}
+.xepan-align-left {
+  text-align: left;
+}
+
+.atk-align-left{
+	text-align:left;
+}
+.xepan-align-center {
+  text-align: center;
+}
+
+.xepan-move-center {
+  margin: auto 0 0 auto !important;
+}
+.paginator > span.select2{
+	width: 80px!important;
+}
+ .tools .reply i{
+    color: white;
+  }
+
+/*span.select2{
+	width:100% !important;
+}*/
+
+.select2-dropdown {
+  z-index: 4096 !important;
+}
+
+.xepan-form-field{
+	border-bottom: 1px solid #eee;
+    border-right: 2px solid #eee;
+    border-top: 2px solid #eee;
+    line-height: 27px;
+    margin-top: 0;
+    border-radius:4px;
+    /*border-left-radius:0px;*/
+}
+
+.xepan-padding-xsmall {
+  padding: 0.5rem;
+}
+.xepan-padding-small {
+  padding: 0.75rem;
+}
+.xepan-padding {
+  padding: 1.5rem;
+}
+.xepan-padding-large {
+  padding: 3rem;
+}
+.xepan-padding-xlarge {
+  padding: 4.5rem;
+}
+.xepan-padding-horizontal-xsmall {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.xepan-padding-horizontal-small {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.xepan-padding-horizontal {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.xepan-padding-horizontal-large {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.xepan-padding-horizontal-xlarge {
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+}
+.xepan-padding-vertical-xsmall {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+.xepan-padding-vertical-small {
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
+}
+.xepan-padding-vertical {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+.xepan-padding-vertical-large {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+.xepan-padding-vertical-xlarge {
+  padding-bottom: 4.5rem;
+  padding-top: 4.5rem;
+}
+.xepan-padding-left-xsmall {
+  padding-left: 0.5rem;
+}
+.xepan-padding-left-small {
+  padding-left: 0.75rem;
+}
+.xepan-padding-left {
+  padding-left: 1.5rem;
+}
+.xepan-padding-left-large {
+  padding-left: 3rem;
+}
+.xepan-padding-left-xlarge {
+  padding-left: 4.5rem;
+}
+.xepan-padding-right-xsmall {
+  padding-right: 0.5rem;
+}
+.xepan-padding-right-small {
+  padding-right: 0.75rem;
+}
+.xepan-padding-right {
+  padding-right: 1.5rem;
+}
+.xepan-padding-right-large {
+  padding-right: 3rem;
+}
+.xepan-padding-right-xlarge {
+  padding-right: 4.5rem;
+}
+.xepan-padding-top-xsmall {
+  padding-top: 0.5rem;
+}
+.xepan-padding-top-small {
+  padding-top: 0.75rem;
+}
+.xepan-padding-top {
+  padding-top: 1.5rem;
+}
+.xepan-padding-top-large {
+  padding-top: 3rem;
+}
+.xepan-padding-top-xlarge {
+  padding-top: 4.5rem;
+}
+.xepan-padding-bottom-xsmall {
+  padding-bottom: 0.5rem;
+}
+.xepan-padding-bottom-small {
+  padding-bottom: 0.75rem;
+}
+.xepan-padding-bottom {
+  padding-bottom: 1.5rem;
+}
+.xepan-padding-bottom-large {
+  padding-bottom: 3rem;
+}
+.xepan-padding-bottom-xlarge {
+  padding-bottom: 4.5rem;
+}
+.xepan-padding-reset {
+  padding: 0;
+}
+.xepan-padding-left-reset {
+  padding-left: 0;
+}
+.xepan-padding-right-reset {
+  padding-right: 0;
+}
+.xepan-padding-top-reset {
+  padding-top: 0;
+}
+.xepan-padding-bottom-reset {
+  padding-bottom: 0;
+}
+
+/* Margin */
+.xepan-margin-top-small {
+  margin-top: 0.75rem;
+}
+/* Margin */
+
+.xepan-hover-hand span{
+  cursor:pointer;
+  cursor: hand;
+  max-width:600px;
+}
+
+#content-wrapper{
+  height: auto;
+  min-height: 620px;
+  padding: 15px 15px 45px;
+}
+
+.xepan-contact-profile button{
+  font-size: 10px;
+  padding: 5px 6px;
+}
+#user-profile .profile-details{
+  margin:0px;
+  padding: 0px;
+}
+
+/*all input tag are 100 % */
+.xepan-admin-input-full-width .atk-form-field > *{
+  width:100%;
+}
+.xepan-admin-input-full-width .atk-form-row{
+  margin-bottom: 10px;
+}
+
+.xepan-admin-input-full-width .atk-actions  > button{
+  background-color: #03a9f4;
+  border-color: #2980b9;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-clip: padding-box;
+  border-color: -moz-use-text-color;
+  border-image: none;
+  border-radius: 3px;
+  border-style: none none solid;
+  border-width: medium medium 4px;
+  outline: medium none;
+  padding: 6px 12px;
+  transition: border-color 0.1s ease-in-out 0s, background-color 0.1s ease-in-out 0s;
+  color:#FFFFFF;  
+  border-color: #2980b9;
+}
+.has-error{
+  color: red;
+}
+
+/*for qsp select 2 full width*/
+.invoice-box span.select2{
+  width:100% !important;
+}
+
+/*100% width of multiselect*/
+.multiselect-full-width + span.select2 {
+  width:100% !important;
+}
+/*Status Icon Color classes */
+
+.xepan-effect-yellow{
+  color: #ffc107;  
+}
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable.ui-resizable{
+  left:10%!important;
+  width: 80%!important;
+  z-index: 2048;
+}
+.accordion-link {
+    display: none!important;
+}
+
+/*icon-plus replace to fa fa-plus*/
+.icon-plus::before{
+  content: "";
+}
+.icon-plus{
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;  
+}
+
+/*hasone in frameURL*/
+  .ui-widget-content span.select2{
+    width: 100% !important;
+  }
+  .ui-widget-content .filter-block span.select2{
+    width: auto!important;
+  }
+  .ui-widget-content .main-box-body .btn{
+    font-size: 12px;
+  }
+
+  /*.page_composeemail span{  
+    width: 100%!important;
+  }*/
+  #nav-col{
+    z-index: 90;
+  }
+  /*.navbar-ex1-collapse{
+    margin-top: -50px!important;
+    margin-left: 90px!important;
+  }*/
+
+  /*page website Elfinder css*/
+  .page_websites .ui-widget-header .ui-icon{
+    background-image:url("images/ui-icons_3c5269_256x240.png")
+  }
+  .page_websites .ui-widget-header{
+    background: transparent;
+    border:0px;
+    color: black;
+  }
+  .page_websites .ui-state-default {
+    background: transparent;
+  }
+  .page_websites .std42-dialog, .std42-dialog .ui-widget-content{
+    background-color:white!important;
+  }
+
+  .page_websites .ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable.ui-resizable{
+    margin-left:-10%!important;
+    /*top:-125% !important;*/
+    width: 100%!important;
+    /*position: absolute!important;*/
+  }
+  .page_websites .CodeMirror{
+    height: 440px!important;
+  }
+  .elfinder .elfinder-navbar{
+    background: #dde4eb none repeat scroll 0 0 !important;
+  }
+  .elfinder{
+    z-index: 98!important;
+  }
+  .navbar-nav .btn:active, .btn.active{
+    box-shadow: 0 3px 85px rgba(0, 0, 0, 0.125) inset!important;
+  }
+
+/*Tab base form */
+.tab-pane .atk-form .atk-actions button {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.xbtn button {
+   -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-clip: padding-box;
+    border-color: -moz-use-text-color;
+    border-image: none;
+    border-radius: 3px;
+    border-style: none none solid;
+    border-width: medium medium 2px;
+    outline: medium none;
+    padding: 6px 12px;
+    transition: border-color 0.1s ease-in-out 0s, background-color 0.1s ease-in-out 0s;
+}
+.xbtn-primary button {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    color: #fff;
+}
+.xbtn button:hover {
+  background-color:#216897;
+  border-color:#2e6da4;
+  color:#fff;
+}
+.xbtn-xs, .xbtn-group-xs > .xbtn {
+    border-radius: 3px;
+    font-size: 12px!important;
+    line-height: 1.5;
+    padding: 1px 5px!important;
+}
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (max-device-width: 980px) and (min-device-width: 320px) {
+  .main-box-body .select2{
+    width: 50%!important;
+  }
+  .responsive-tabs-container .atk4_form , .responsive-tabs-container .atk-push-reset{
+    margin-bottom: 3rem!important;
+  }
+  #page-wrapper{
+    font-size: 0.875em;
+  }
+  #content-wrapper{
+    height: auto;
+    min-height: 520px;
+  }
+  .main-box-body{
+    margin-bottom: 3rem;
+    padding-bottom: 0 !important;
+  }
+  #page-wrapper a{
+    font-size: 0.875em;
+  }
+  /*#page-wrapper table span{
+    font-size: 0.7em;
+  }*/
+
+  .navbar-ex1-collapse{
+    width:100%;
+    margin-top: 0px!important;
+    margin-left: 0px!important;
+  }
+  .navbar-header{
+    float: left;
+  }
+  .container .navbar-header > .navbar-left{
+    float:none ;
+  } 
+  .navbar-ex1-collapse .nav li{
+    float:none ;
+  }
+  .navbar-ex1-collapse .nav li a{
+    text-align: left;
+  }
+  .navbar-ex1-collapse .nav li a i{
+    right: 25px;
+  }
+  .navbar-ex1-collapse .nav .dropdown .dropdown-toggle i{
+    position: absolute;
+    right: 25px;
+    transition: transform 0.2s ease-in-out 0.1s;
+    transform: rotateZ(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+  }
+  .navbar-ex1-collapse .nav .open .fa-caret-down{
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      transform: rotate(0deg)!important;
+  }
+
+    /*document action buttons*/
+  .xepan-document-actions div.btn {
+    /*for value*/
+    /*padding-left:0.1em !important;
+    padding-right:0.1em !important;
+    padding-top:0.875em !important;*/
+    font-size: 0.8em!important;
+  }
+  
+  .xepan-document-actions button.btn {
+        /* for icons*/
+    padding-left:0.077em !important;
+    /*padding-top:0.875em !important;*/
+    font-size: 0.78em!important;
+  }
+  .main-box-body .row .btn{
+    margin-bottom: 0rem!important;
+  }
+  .xepan-document-actions .dropdown-menu {
+    font-size:0.875em;
+    width: auto !important;
+    max-width: auto !important;
+    min-width: auto !important;
+  }
+  .namebadge  {
+    font-size: 12px!important;
+    height: 35px!important;
+    line-height: 35px!important;
+    max-width: 35px!important;
+    width: 35px!important;
+  }
+  .filter-block .form-group{
+    float: left !important;
+    /*width: 100%;*/
+  }
+  .filter-block button.btn {
+    overflow: hidden;
+    width: 40px
+  }
+  .filter-block button.qps_pos_btn {
+    width: auto;
+  }
+  .filter-block button.btn i{
+    padding-right: 18px;
+  }
+  .xepan-micro-grid button{
+    width: 24px!important;
+    margin-right: 10px;
+  }
+
+  .xepan-filter-form .atk-cell.atk-jackscrew :not(input){display: none;}
+  .xepan-filter-form .form-control .atk-cells.atk-input-combo div.atk-cell{float: left;}
+  .xepan-filter-form .form-control .atk-cells.atk-input-combo{float: right;}
+  
+  /*Notification  View*/
+  .navbar-nav > li > .dropdown-menu.notifications-list{
+    font-size: 0.8em!important;
+    min-width: 160px!important;
+  }
+  /*Side bar*/
+  #sidebar-nav hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  /*Email Layouts Css*/
+  #email-list li .name{
+    width: auto!important;
+    line-height: 1;
+  }
+  ul#email-nav-labels{
+    min-height:50px;
+    max-height:100px!important;
+    overflow-y:scroll;
+  }
+
+  #email-list li .message{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .nano-slider{
+    height:0px!important;
+  }
+ 
+  .mobile-email-navigation-tool-cog{
+    background: #fff none repeat scroll 0 0 padding-box;
+    border-radius: 0px 3px 3px 0px;
+    box-shadow: 8px 3px 3px -2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    right: -30px;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transition: all 0.1s ease-in-out 0s;
+    width: 30px;
+  }
+
+  .mobile-email-navigation-tool{
+    position: fixed;
+    left: 0;
+    top: 107px;
+    transition: all 0.2s ease-in-out 0s;
+    width: 200px;
+    z-index: 1000;
+  }
+  .mobile-email-navigation-tool-options{
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 8px 3px 3px -2px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+  }
+  .mobile-email-navigation-tool-closed{
+    left: -200px;
+  }
+
+  /*Layout Options Css*/
+ #config-tool{
+  width: 160px;
+  top:107px;
+ }
+ #config-tool.closed{
+  right:-160px;
+ }
+  #config-tool #config-tool-options ul li{
+    padding:2px 0;
+  }
+  #config-tool #config-tool-options h4{
+    font-size: 1em;
+  }
+  #config-tool #config-tool-options ul{
+    padding: 10px;
+    padding-bottom: 0px;
+  }
+  #config-tool #skin-colors li{
+    padding: 2px!important;
+  }
+  #config-tool #skin-colors li a.skin-changer{
+    width: 15px;
+    height: 15px;
+  }
+  #config-tool-options .checkbox-nice label{
+    font-size: 0.73em;
+    margin-bottom: 2px;
+  }
+  #config-tool #config-tool-cog{
+    width: 30px;
+    left: -30px;
+    padding: 2px;
+  }
+  .checkbox-nice{
+    padding-left:5px;
+  }
+  .checkbox-nice label::before{
+    height: 15px;
+    width: 15px;
+    top:12px;
+  }
+  .checkbox-nice label::after{
+    border-width: medium medium 2px 2px;
+    height: 5px;
+    left: 5px;
+    top: 16px;
+    width: 8px;
+  }
+  /*Bootstrap Tabs */
+  .responsive-tabs-container[class*="accordion-"] .tab-pane {
+    margin-bottom: 15px;
+  }
+  .responsive-tabs-container[class*="accordion-"] .accordion-link {
+    display: none;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    color: #333;
+  }
+  .responsive-tabs-container.accordion-xs .nav-tabs {
+    display: none;
+  }
+  .responsive-tabs-container.accordion-xs .accordion-link {
+    display: block;
+  }
+  .responsive-tabs-container.accordion-sm .nav-tabs {
+    display: none;
+  }
+  .responsive-tabs-container.accordion-sm .accordion-link {
+    display: block;
+  }
+  .responsive-tabs-container.accordion-md .nav-tabs {
+    display: none;
+  }
+  .responsive-tabs-container.accordion-md .accordion-link {
+    display: block;
+  }
+  .responsive-tabs-container.accordion-lg .nav-tabs {
+    display: none;
+  }
+  .tabs-wrapper .tab-content{
+    margin-bottom: 3rem!important;
+  }
+  .accordion-link {
+    display: block!important;
+  }
+  /*Email Form Wizard*/
+  .wizard .wizard-inner .actions{
+    background-color:transparent!important;
+    border-left:0px!important;
+    padding-left:0px!important;
+    padding-right:0px!important;
+    position: relative!important;
+  }
+  .wizard .wizard-inner ul li .chevron{
+    border-style: solid none solid solid;
+    border-width: 0px 0 0px 0px!important;
+    top: 23px!important;
+  }
+  .wizard .wizard-inner ul li .chevron::before{
+    border-width: 18px 0 19px 13px!important;
+  }
+  .wizard .wizard-inner ul li{
+    height: 35px!important;
+    line-height: 35px!important;
+  }
+
+  /*main-box-body Form Field Layout*/
+  .main-box-body .row div{
+    margin-top: :0.5rem!important;
+    margin-bottom: 0.5rem;
+  }
+  .atk-form-row div{
+    margin-top: :0.5rem!important; 
+    margin-bottom: 0.5rem;
+  }
+
+  /*Support Ticket details accordian*/
+  .accordion .panel-title > a::after{
+    top:10px!important;
+  }
+  #email-body #accordion h4 a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }  
+  .conversation-wrapper{
+    padding-bottom: 0px!important;
+  }
+
+    /*--------------------Compose Email View Popup Mobile CSS---------------------------*/
+  
+  .compose-email-view-popup  {
+    margin: auto !important;
+    min-width: auto !important;
+    right: auto!important;
+    bottom: auto!important;
+    top:60px!important;
+    width: 100% !important;
+  }
+  .compose-email-view-popup .email-new-nano-content{
+    width:85%!important;
+    margin: auto!important;
+    height: 420px;
+  }
+  .compose-email-view-popup .compose-email-inner{
+    height: 380px!important;
+    line-height: 1px!important
+  }
+
+
+  /*--------------------CRM Reply Email Popup CSS---------------------------*/
+
+  .xepan-crm-reply-tool{
+    min-width: auto!important;
+    top:55px!important;
+    bottom: auto!important;
+    width: 90%!important;
+  }
+  
+  /*.xepan-crm-communication-reply-view .xepan-crm-form-inner{*/
+  .xepan-crm-communication-reply-view .xepan-crm-form-inner{
+    height: 380px!important;
+  }
+  .xepan-crm-reply-tool-cog{
+    width: 35px!important;
+    /*font-size: 12px!important; */
+    left: -35px!important;
+  }
+  
+  #email-detail-attachments #email-attachments-content ul li{
+      width:100%!important;
+  }
+
+  /*Reminder button css*/
+  .myButton{
+    padding: 5px 10px!important;
+    font-size: 11px!important;
+  }
+
+  .compose-message-view-popup {
+    border-top: 1px solid #999999!important;
+    border-top-left-radius: 10px!important;
+    border-top-right-radius: 10px!important;
+    /*bottom: -500px;*/
+    display: block!important;
+    font-size: 15px!important;
+    height: 320px!important;
+    margin-right: auto;
+    overflow: scroll!important;
+    width: 90%!important;
+  }
+
+}  
+
+.dialogelfinder {
+  z-index: 99999 !important;
+}
+
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S4 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+
+}
+#email-detail-attachments #email-attachments-content ul li{
+    width:20%;
+}
+#email-detail-attachments #email-attachments-content ul li .img{
+    min-height:75px;
+    min-width:130px;
+    width:100%!important;
+    height:auto!important;
+}
+
+  /*--------------------Compose Email View Popup CSS---------------------------*/
+  
+.compose-email-view-popup  {
+    min-width: 350px;
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    width: 35%;
+    z-index: 3000;
+    
+}
+.compose-email-view-popup .compose-email-inner{
+  overflow-x:hidden;
+  overflow-y: scroll;
+  height: 520px;
+  padding: 10px;
+  border: 2px solid gray;
+  background-color: white;
+}
+
+.compose-email-view-popup .header {
+  color: white;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+}  
+.compose-email-view-popup .header i {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.compose-email-resize-toggle{
+  width: 80%;
+  right: auto;
+  left: auto;
+}
+
+/*--------------------CRM Reply Email Popup CSS---------------------------*/
+
+.mobile-email-navigation-tool-options{
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 8px 3px 3px -2px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+
+
+.xepan-crm-reply-tool{
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 8px 3px 3px -2px rgba(0, 0, 0, 0.1);
+  min-width: 350px;
+  position: fixed;
+  bottom: 0px;
+  transition: all 0.2s ease-in-out 0s;
+  right: 0px;
+  width: 35%;
+  z-index: 3000; 
+}
+
+/*.xepan-crm-communication-reply-view .xepan-crm-form-inner{*/
+.xepan-crm-communication-reply-view .xepan-crm-form-inner{
+  overflow-x:hidden;
+  overflow-y: scroll;
+  height: 520px;
+  padding: 10px;
+  border: 2px solid gray;
+  background-color: white;
+}
+
+
+.xepan-crm-communication-reply-view .header {
+  color: white;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+}
+.xepan-crm-communication-reply-view .header i {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.xepan-crm-reply-tool-cog{
+  /*background: #fff none repeat scroll 0 0 padding-box;*/
+  border-radius: 3px 0px 0 3px;
+  box-shadow: 8px 3px 3px -2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  left: -50px;
+  padding: 5px;
+  position: absolute;
+  text-align: center;
+  top: 210px;
+  /*top: 0;*/
+  transition: all 0.1s ease-in-out 0s;
+  width: 50px;
+}
+.xepan-crm-reply-tool-closed{
+  width: 0px!important;
+  min-width: 0px!important;
+}
+
+/*.popover.editable-container.editable-popup.fade.top.in{
+  top: -15px!important;
+}*/
+
+.editable-checklist{
+  height: auto;
+  max-height: 200px!important;
+  overflow-y: scroll;
+}
+
+.bootstrap-timepicker-widget{
+  z-index: 2500!important;
+}
+.xepan-communication-action{
+  color:white!important;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;  
+}
+
+.close-compose-message-popup{
+  cursor: pointer;
+}
+
+[data-toggle="buttons"] > .btn input[type="radio"], [data-toggle="buttons"] > .btn input[type="checkbox"], [data-toggle="buttons"] > .btn-group > .btn input[type="radio"], [data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"] {
+    clip: rect(0px, 0px, 0px, 0px);
+    pointer-events: none;
+    position: absolute;
+}
+
+.xepan-radio-btn-form-field-clear{
+  clear: both;
+}
+.xepan-radio-btn-form-field{
+  float: left;
+  padding-right: 1%;
+}
+
+.xepan-radio-btn-form-field div label span {
+    font-size: 15px;
+}

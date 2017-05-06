@@ -1,0 +1,66 @@
+
+<script>
+  $("#btnPrint").on("click", function () {
+      var divContents = $("#dvContainer").html();
+      var printWindow = window.open('', '', 'height=400,width=800');
+      printWindow.document.write('<html><head><title>DIV Contents</title>');
+      printWindow.document.write('</head><body >');
+      printWindow.document.write(divContents);
+      printWindow.document.write('</body></html>');
+      printWindow.document.close();
+      printWindow.print();
+  });
+</script>
+<div id="{$_name}" class="xepan-grid main-box clearfix atk-table atk-table-zebra atk-table-bordered {$class}">
+  <div id="btnPrint" style="cursor: pointer; cursor: hand;">&nbsp;&nbsp;<i> 
+      <div class="fa fa-print"></div></i>&nbsp;&nbsp;<span>print</span></div>{Pannel}
+  <header class="main-box-header clearfix atk-actions  {$class} ">
+    <div style="100%" class="filter-block">
+      <div class="pull-right">{$grid_buttons} </div>
+      <div class="form-group pull-right xepan-filter-form"><span class="form-control pull-left">{$quick_search}</span></div>
+    </div>
+  </header>{/Pannel}
+  <div id="dvContainer">
+    <div class="main-box-body clearfix table">
+      <table style="width:100%" border="1" class="table user-list table-hover">{header}
+        <thead>{cols}{col}
+          <th><span>S.No.</span></th>
+          <th><span>Date</span></th>
+          <th><span>Number of set</span></th>
+          <th><span>Number of Quilt</span></th>{/}{/}
+        </thead>{/}
+        {$subheader}
+        <tbody>{rows}{row}
+          <tr data-id="{$id}" class="{$odd_even}">{cols}
+            <td><span>{$sno}</span></td>
+            <td><span>{$created_date}</span></td>
+            <td><span>{$set_amount}</span></td>
+            <td><span>{$quilt_amount}</span></td>{/}
+          </tr>{/}{/}
+          {not_found}
+          <div class="row">
+            <div role="alert" class="col-md-12 text-center alert alert-warning"><span class="icon-attention fa fa-exclamation-triangle"> &nbsp;{$not_found_message}</span></div>
+          </div>{/}
+        </tbody>{totals}
+        <tfoot>
+          <tr class="totals">
+            {cols}{col}
+            <td {$tdparam}>
+            {$content}
+            </td>
+            {/}{/}
+          </tr>
+        </tfoot>{/}
+        <table>
+          <td>
+            <th style="width:18%;">Total</th>
+            <th style="width:18%;"></th>
+            <th style="width:30%;"><span style="float:left;">{$set_total}</span></th>
+            <th style="width:30%;"><span style="float:left;">{$quilt_total}</span></th>
+            <th style="width:18%;"></th>
+          </td>
+        </table>
+      </table>
+    </div>{$Paginator}
+  </div>
+</div>

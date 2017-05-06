@@ -1,0 +1,36 @@
+.panel.panel-default
+	.panel-heading 
+		span Enter and save values
+	.panel-body
+		.row.xepan-push
+			.col-md-4.atk-form-field.atk-form-row
+				strong Event :
+				{$event}
+			.col-md-4.atk-form-field.atk-form-row
+				strong Number of set : 
+				{$amount}
+			.col-md-4.atk-form-field.atk-form-row
+				strong Number of Quilt :
+				{$quilt}
+		.row.xepan-push
+			.col-md-4.atk-form-field.atk-form-row
+				strong Narration :
+				{$narration}
+			.col-md-8
+				.row.xepan-push
+					.col-md-6.atk-form-field.atk-form-row
+						strong Given By :
+						{$given_by}
+					.col-md-6.atk-form-field.atk-form-row
+						strong Received By :
+						{$received_by}
+				.row
+					.col-md-6.atk-form-field.atk-form-row
+						strong Date :
+						{$date}
+					.col-md-6.atk-form-field.atk-form-row
+						strong Time :
+						{$time}
+		.row.xepan-push
+			.col-md-12
+				{$FormButtons}
